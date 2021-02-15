@@ -18,7 +18,7 @@ default = []
 ndarray_features = ["ndarray"]
 
 [dependencies]
-sndfile-sys = "0.2"
+sndfile-sys = { git = "https://github.com/evpobr/sndfile-sys" }
 lazy_static = "1"
 ndarray = { version = "0.13", optional = true }
 
